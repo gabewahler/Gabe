@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed&display=swap');
+
+
+
+.topnav {
+  background-color: #ffff
+  ;
+  overflow: hidden;
+}
+.topnav a {
+  float: left;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+.topnav a:hover {
+  background-color: 	#808080;
+  color: white;
+}
+
+
+.topnav a.active {
+  background-color: #C0C0C0;
+  color: white;
+}
+
+h1 {
+
+text-align: center;
+
+  font-size: 120px;
+text-shadow: 7px 10px #606060;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.6);
+  font-family: 'Francois One', sans-serif;
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+
+h3{
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  font-family:'Barlow Condensed', sans-serif;
+}
+
+h4{
+  text-align: left;
+  font-size: 53px;
+    text-shadow: 7px 6px #606060;
+  color: white;
+  font-family:'Barlow Condensed', sans-serif;
+}
+
+h5{
+  text-align: left;
+  font-size: 40px;
+  color: white;
+  font-family:'Barlow Condensed', sans-serif;
+}
+
+h6{
+  text-align: left;
+  font-size: 53px;
+    text-shadow: 7px 6px #606060;
+  color: white;
+  font-family:'Barlow Condensed', sans-serif;
+}
+
+p{
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  font-family:'Barlow Condensed', sans-serif;
+}
+
+.sydney-bridge{
+
+  margin-left: 0px 0px;
+  width: 100%;
+  height: 521px;
+}
+
+.sub{
+  position: absolute;
+  top: 400px;
+  left: 774px;
+  transform: translate(-50%, -50%);
+    font-family: 'Francois One', sans-serif;
+    text-shadow: 7px 6px #606060;
+  }
+
+
+
+
+
+
+.sydney-opera-house{
+width: 100%;
+justify-content: center;
+position: relative;
+text-align: center;
+
+    }
+
+.sydney-opera-house img{
+
+margin-left: 0px 0px 0px 100px;
+width: 100%;
+height: 521px;
+justify-content: center;
+  font-family: 'Francois One', sans-serif;
+}
+
+.centered {
+  position: absolute;
+  top:250px;
+  left: 775px;
+  transform: translate(-50%, -50%);
+    font-family: 'Francois One', sans-serif;
+
+}
+
+
+
+
+
+
+
+.sydney{
+width: 100%;
+justify-content: flex-start;
+position: absolute;
+top: 650px;
+left: 45px;
+text-align: left;
+   }
+
+.sydney img{
+
+margin-left: 100px 100px 100px 100px;
+width: 30%;
+height: 300%;
+justify-content: center;
+  font-family: 'Francois One', sans-serif;
+}
+
+.centered2 {
+  position: absolute;
+  top: 20px;
+  left: 590px;
+  transform: translate(-50%, -50%);
+    font-family: 'Francois One', sans-serif;
+
+}
+
+.sydney-p {
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 680px;
+  left: 555px;
+  font-family:'Barlow Condensed', sans-serif;
+}
+
+
+
+
+
+
+.Melbourne{
+width: 100%;
+justify-content: flex-start;
+position:absolute;
+top: 1275px;
+left:-1068px;
+text-align: right;
+    }
+
+.Melbourne img{
+
+margin-left: 100px 100px 100px 100px;
+width: 30%;
+height: 300%;
+justify-content: center;
+  font-family: 'Francois One', sans-serif;
+}
+
+.centered3 {
+  position: absolute;
+  top: 20px;
+  left: 1725px;
+  transform: translate(-50%, -50%);
+    font-family: 'Francois One', sans-serif;
+
+}
+
+.Melbourne-p {
+  position:absolute;
+  top: 1315px;
+  left:550px;
+}
+
+
+
+
+
+
+
+.Brisbane{
+width: 100%;
+justify-content: flex-start;
+position: absolute;
+top: 1875px;
+left: 40px;
+text-align: left;
+
+    }
+
+.Brisbane img{
+
+margin-left: 100px 100px 100px 100px;
+width: 30%;
+height: 300%;
+justify-content: center;
+  font-family: 'Francois One', sans-serif;
+}
+
+.centered4 {
+  position: absolute;
+  top: 20px;
+  left: 600px;
+  transform: translate(-50%, -50%);
+    font-family: 'Francois One', sans-serif;
+
+}
+
+.Brisbane-p {
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 1920px;
+  left: 550px;
+  font-family:'Barlow Condensed', sans-serif;
+}
+
+
+
+
+
+
+
+.Perth{
+width: 100%;
+justify-content: flex-start;
+position: absolute;
+top: 2500px;
+left: 50px;
+text-align: left;
+
+    }
+
+.Perth img{
+
+margin-left: 100px 100px 100px 100px;
+width: 30%;
+height: 300%;
+justify-content: center;
+  font-family: 'Francois One', sans-serif;
+}
+
+.centered5 {
+  position: absolute;
+  top: 20px;
+  left: 550px;
+  transform: translate(-50%, -50%);
+    font-family: 'Francois One', sans-serif;
+
+}
+
+.Perth-p {
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  position: absolute;
+  top: 2550px;
+  left: 560px;
+  font-family:'Barlow Condensed', sans-serif;
+}
