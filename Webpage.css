@@ -68,18 +68,25 @@ h4{
 
 h5{
   text-align: left;
-  font-size: 40px;
+  font-size: 20px;
+    text-shadow: 7px 6px #606060;
   color: white;
-  font-family:'Barlow Condensed', sans-serif;
+  font-family: 'Alatsi', sans-serif;
+  position: absolute;
+  top: 3025px;
 }
 
 h6{
   text-align: left;
-  font-size: 53px;
+  font-size: 20px;
     text-shadow: 7px 6px #606060;
   color: white;
-  font-family:'Barlow Condensed', sans-serif;
+  font-family: 'Alatsi', sans-serif;
+  position: absolute;
+  top: 3025px;
 }
+
+
 
 p{
   text-align: left;
@@ -194,16 +201,6 @@ left:-1068px;
 text-align: right;
     }
 
-.Melbourne img{
-
-margin-left: 100px 100px 100px 100px;
-width: 30%;
-height: 300%;
-justify-content: center;
-  font-family: 'Francois One', sans-serif;
-}
-
-
 
 
 
@@ -220,6 +217,15 @@ justify-content: center;
   transform: translate(-50%, -50%);
     font-family: 'Francois One', sans-serif;
 
+}
+
+.Melbourne2 {
+  margin-left: 100px 100px 100px 100px;
+  width: 450px;
+  height: 300px;
+  position: absolute;
+  top: 1300px;
+  left: 40px;
 }
 
 
@@ -308,4 +314,233 @@ justify-content: center;
   top: 2550px;
   left: 560px;
   font-family:'Barlow Condensed', sans-serif;
+}
+
+
+
+
+
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.grid div:nth-child(even) {
+  background-color: "#7f7f7f";
+}
+
+.grid div:nth-child(odd) {
+  background-color: "#7f7f7f";
+}
+
+.grid img{
+
+
+width: 500px;
+height: 600px;
+
+}
+
+
+
+
+.footer2 {
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  font-family: 'Alatsi', sans-serif;
+  position: absolute;
+  top:3000px;
+}
+
+
+.footer3 {
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  font-family: 'Alatsi', sans-serif;
+  position: absolute;
+  top:3050px;
+}
+
+
+.Wildlife {
+  text-align: left;
+  font-size: 25px;
+  color: white;
+  font-family: 'Alatsi', sans-serif;
+}
+
+.bird {
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 650px;
+  left: 560px;
+  font-family: 'Francois One', sans-serif;
+}
+
+
+.black-ape {
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 650px;
+  left: 1350px;
+  font-family: 'Francois One', sans-serif;
+}
+
+.blue-lobster {
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 1250px;
+  left: 560px;
+  font-family: 'Francois One', sans-serif;
+}
+
+
+.blue-crab {
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 1250px;
+  left: 1350px;
+  font-family: 'Francois One', sans-serif;
+}
+
+
+.australian-crocodile {
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 1850px;
+  left: 560px;
+  font-family: 'Francois One', sans-serif;
+}
+
+
+
+.komodo-dragon {
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 1850px;
+  left: 1350px;
+  font-family: 'Francois One', sans-serif;
+}
+
+
+.red-fox {
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 2450px;
+  left: 560px;
+  font-family: 'Francois One', sans-serif;
+}
+
+
+.kangaroo {
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 2450px;
+  left: 1350px;
+  font-family: 'Francois One', sans-serif;
+}
+
+
+.koala {
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 3050px;
+  left: 560px;
+  font-family: 'Francois One', sans-serif;
+}
+
+
+.Eastern-bearded-dragon {
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 3050px;
+  left: 1350px;
+  font-family: 'Francois One', sans-serif;
+}
+
+
+.flame-anglefish {
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 3650px;
+  left: 560px;
+  font-family: 'Francois One', sans-serif;
+}
+
+
+.shark {
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 3650px;
+  left: 1350px;
+  font-family: 'Francois One', sans-serif;
+}
+
+.Green-tree-python {
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 4250px;
+  left: 560px;
+  font-family: 'Francois One', sans-serif;
+}
+
+.Yellow-moray{
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 4250px;
+  left: 1350px;
+  font-family: 'Francois One', sans-serif;
+}
+
+.Carpet-python{
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 4850px;
+  left: 560px;
+  font-family: 'Francois One', sans-serif;
+}
+
+.Eastern-brown-snake{
+  text-align: left;
+  font-size: 30px;
+  color: white;
+  position: absolute;
+  top: 4850px;
+  left: 1350px;
+  font-family: 'Francois One', sans-serif;
 }
