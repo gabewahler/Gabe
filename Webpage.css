@@ -7,6 +7,13 @@
 @import url('https://fonts.googleapis.com/css?family=Alatsi&display=swap');
 
 
+
+
+
+
+
+
+
 /* navigation */
 .topnav {
   background-color: #ffff
@@ -109,15 +116,6 @@ p{
   height: 100%;
 }
 
-.sub{
-  position: absolute;
-  top: 400px;
-  left: 774px;
-  transform: translate(-50%, -50%);
-    font-family: 'Francois One', sans-serif;
-    text-shadow: 7px 6px #606060;
-  }
-
 
 
 
@@ -146,11 +144,46 @@ justify-content: center;
   left: 775px;
   transform: translate(-50%, -50%);
     font-family: 'Francois One', sans-serif;
+  }
+
+.centered-sub{
+      position: center;
+          transform:translateY(-800px);
+        font-family: 'Francois One', sans-serif;
+        text-shadow: 7px 6px #606060;
 
 }
+/* map */
 
+.sel-Sydney {
+  position: absolute;
+  top:400px;
+  left:500px;
+}
 
+.sel-melbourne {
+  position: absolute;
+  top:1000px;
+  left:500px;
+}
 
+.sel-Brisbane {
+  position: absolute;
+  top:1600px;
+  left:500px;
+}
+
+.sel-Perth {
+  position: absolute;
+  top:2200px;
+  left:500px;
+}
+
+.map-footer{
+  position: absolute;
+  top:100px;
+  left:500px;
+}
 
 
 /* cities page elements */
